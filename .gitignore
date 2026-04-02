@@ -1,0 +1,48 @@
+# Root gitignore for 3W Full Stack Internship Assignment (Mini Social Post App)
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Build outputs
+frontend/build/
+frontend/dist/
+backend/dist/
+backend/build/
+
+# Environment / secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# Logs
+logs/
+*.log
+backend/logs/
+frontend/logs/
+
+# Coverage / test
+coverage/
+frontend/coverage/
+backend/coverage/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Misc
+*.tgz
+*.gzip
+.tmp/
